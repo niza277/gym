@@ -135,13 +135,14 @@ img {vertical-align: middle;}
     grid-template-areas:
     'slider'
     'studdesc'
-    'studpic1'
+    'studpic1' 
     'studpic2'
     'studpic3'
+    'clasdesc'
     'claspic1'
     'claspic2'
     'claspic3'
-    'clasdesc';
+    ;
   }
 }
 /*** end slider style ***/
