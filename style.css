@@ -281,3 +281,13 @@ body {
   }
 }
 
+@media(max-width: 600px){
+  p.footer{
+      display:block;
+      color:black; 
+      padding:0px;
+      margin: 0px;
+  } 
+}
+
+
