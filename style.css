@@ -116,9 +116,6 @@ img {vertical-align: middle;}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 500px) {
-  .fa .fa-bars {
-    color: white !important;
-  }
   .text {font-size: 11px}
 
   img {
@@ -150,18 +147,18 @@ img {vertical-align: middle;}
 /* flex container trainer page */
 .flex-container {
   display: flex;
-  height: 200px;
+  height: 320px;
   align-items: center;
   background-color: rgb(255, 255, 255);
 }
 
 .flex-container > div {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   width: 300px;
   margin: 100px;
   text-align: center;
-  line-height: 150px;
-  font-size: 30px;
+  line-height: 100px;
+  font-size: 25px;
 }
 /* end flex container trainer page */
 
