@@ -1,9 +1,11 @@
 p.font {
   text-align: justify;
 }
-a.logo {
-  position: left;
+logo {
+  text-align: left;
+  display :inline-block;
 }
+
 .footer{
   left: 0;
   bottom: 0;
@@ -207,10 +209,11 @@ body {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
-    display: block;
+    display: flex;
   }
-  .topnav a.logo {
-    float: center;
+
+  logo {
+    text-align: center;
     display: block;
   }
   
@@ -219,12 +222,7 @@ body {
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive .a.logo {
-    position: absolute;
+    position: below;
     right: 0;
     top: 0;
   }
